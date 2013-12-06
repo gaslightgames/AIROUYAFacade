@@ -1,0 +1,16 @@
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+	<id>com.gaslightgames.AIROUYAFacadeANE</id>
+	<versionNumber>1</versionNumber>
+	
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>AIROUYAFacadeANE.jar</nativeLibrary>
+				<initializer>com.gaslightgames.android.ouyafacadeane.extensions.AIROUYAFacadeANEExtension</initializer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+            <applicationDeployment/> 
+        </platform>
+	</platforms>
+</extension>
